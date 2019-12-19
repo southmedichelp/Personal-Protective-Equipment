@@ -75,7 +75,7 @@ class Particle {
     //this.texture = new PIXI.extras.AnimatedSprite(media);
     this.texture = new PIXI.Sprite(media[0]);
     let n = [0.344, 0.4346, 0.7444, 0.992222][Math.round(Math.random() * 3)];
-    this.texture.tint = n * 0xFFFFFF;
+    this.texture.tint = n * 0x115666;
     this.texture.cacheAsBitmap = true;
     this.texture.anchor.set(0.5);
     //this.texture.animationSpeed = 0.5;
